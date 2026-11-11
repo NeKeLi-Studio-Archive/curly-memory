@@ -1,0 +1,25 @@
+# Co ile minut losowana jest nowa minigra
+interval-minutes: 5
+# Ile sekund gracze maja na dolaczenie (/minigame join lub klikniecie w czacie)
+lobby-seconds: 30
+# Minimalna liczba graczy, zeby runda ruszyla
+min-players: 2
+# Maksymalny czas jednej rundy (sekundy)
+max-game-seconds: 300
+
+# Gdzie generowane sa areny (budowane automatycznie i sprzatane po grze)
+arena:
+  world: world
+  x: 10000
+  y: 120
+  z: 10000
+
+# Dostepne gry: tntrun, spleef, elytra
+enabled-games:
+  - tntrun
+  - spleef
+  - elytra
+
+# Komendy wykonywane z konsoli dla zwyciezcy (%player% = nick)
+reward-commands:
+  - "give %player% diamond 3"

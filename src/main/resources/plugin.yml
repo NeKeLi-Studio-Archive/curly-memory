@@ -1,0 +1,15 @@
+name: RandomMinigames
+version: 1.0.0
+main: pl.randomminigames.RandomMinigames
+api-version: '26.1'
+description: Co kilka minut losuje minigre (TNT Run, Spleef, Elytra Race).
+commands:
+  minigame:
+    description: Obsluga minigier
+    usage: /minigame <join|leave|start|stop|list|reload>
+    aliases: [mg]
+permissions:
+  minigame.join:
+    default: true
+  minigame.admin:
+    default: op
